@@ -1,0 +1,50 @@
+double dzx = 0.0f;
+double dzy = 0.0f;
+double mousex = 0f;
+double mousey = 0f;
+double mousexcenter = 0f;
+double mouseycenter = 0f;
+if (MouseHookX > 0 & MouseHookX < 1366)
+    mousexcenter = (((double)MouseHookX) - 1366f / 2f) * (1024f * 2f / 1366f);
+if (MouseHookY > 0 & MouseHookY < 768)
+    mouseycenter = (((double)MouseHookY) - 768f / 2f) * (1024f * 2f / 768f);
+if (mousexcenter > 0f & mousexcenter < 1024f)
+    mousex = Scale(mousexcenter, 0f, 1024f, (dzx / 100f) * 1024f, 1024f);
+if (mousexcenter < 0f & mousexcenter > -1024f)
+    mousex = Scale(mousexcenter, -1024f, 0f, -1024f, -(dzx / 100f) * 1024f);
+if (mouseycenter > 0f & mouseycenter < 1024f)
+    mousey = Scale(mouseycenter, 0f, 1024f, (dzy / 100f) * 1024f, 1024f);
+if (mouseycenter < 0f & mouseycenter > -1024f)
+    mousey = Scale(mouseycenter, -1024f, 0f, -1024f, -(dzy / 100f) * 1024f);
+if (mousex != 0f)
+    leftstickx = mousex * 32767f / 1024f;
+if (mousey != 0f)
+    leftsticky = -mousey * 32767f / 1024f;
+A = Key_Space;
+lefttrigger = MouseHookRightButton;
+righttrigger = MouseHookLeftButton;
+Y = Key_E;
+back = Key_Escape;
+start = Key_Return;
+rightstick = Key_V;
+leftstick = Key_SHIFT;
+leftbumper = Key_T;
+rightbumper = Key_G;
+B = Key_C;
+X = Key_R;
+left = Key_LEFT;
+right = Key_RIGHT;
+up = Key_UP;
+down = Key_DOWN;
+if (Key_Z) 
+    rightstickx = 32767;
+if (Key_S) 
+    rightstickx = -32767;
+if (!Key_Z & !Key_S) 
+    rightstickx = 0;
+if (Key_Q) 
+    rightsticky = -32767;
+if (Key_D) 
+    rightsticky = 32767;
+if (!Key_Q& !Key_D) 
+    rightsticky = 0;

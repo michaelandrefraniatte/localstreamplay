@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Local Stream Play</title>
+    <meta name="description" content="Streaming on local network a PC on another PC">
+    <meta name="keywords" content="stream, local, network, PC">
+    <meta name="author" content="MICHAEL ANDRE FRANIATTE">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../extra/w3.css">
+    <link rel="stylesheet" href="../bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="../custom/custom.css" />
+    <link rel="stylesheet" href="../extra/rgpd.css" />
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.css">
+    <link rel="stylesheet" href="../extra/spinner.css" />
+
+</head>
+
+<body id="page-top" onLoad="window_onload()">
+
+    <div class="back">
+
+    <div class="fa fa-spinner fa-spin spinner show"></div>
+
+    <span aria-label="No Cookies!" class="infobulle">&#8505;</span>
+
+    <button onclick="topFunction()" id="TopBtn" aria-label="Go to top">▲</button>
+
+    <div id="banner"><img src="../img/favicon.jpg" /><div id="closebanner">✖</div><div id="textbanner">This website respect entirely the life privacy. No cookies are stored on any database or any file or any webbrowser.</div><div id="button1banner">I understand</div><div id="button2banner">I don't understand</div></div>
+
+    <div class="top w3-center">
+        <a href="../#localstreamplay"><img class="logo" src="lsp.png" alt="lsp"></a>
+        <div class="title colored">
+            <h2>Local Stream Play</h2>
+            <h1>Streaming a PC on Another PC</h1>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div class="w3-row first-section">
+            <div class="w3-container">
+                <h3 class="w3-center colored"><b>Play with Old PC or Tiny PC at Most Recent Games</b></h3>
+                <p>
+                    <b>T</b>his program is made for playing on a PC a game runing on another PC, or simply sharing the screen, the sound, the Keyboard and Mouse, and Xbox Controller. There isn't any latency, and the user interface is very simple. It just do well what is made for, simply. Let's see...
+                </p>
+            </div>
+        </div>
+
+        <div class="w3-center row">
+            <div class="column">
+                <img src="../img/localstreamplay-main.png" alt="localstreamplay-main" width="100%" height="auto" onclick='img_box("../img/localstreamplay-main.png")'>
+            </div>
+            <div class="column">
+                <img src="../img/localstreamplay-host.png" alt="localstreamplay-host" width="100%" height="auto" onclick='img_box("../img/localstreamplay-host.png")'>
+            </div>
+            <div class="column">
+                <img src="../img/localstreamplay-script.png" alt="localstreamplay-script" width="100%" height="auto" onclick='img_box("../img/localstreamplay-script.png")'>
+            </div>
+        </div>
+
+        <div class="w3-row second-section">
+            <div class="w3-container">
+                <h3 class="w3-center colored"><b>Considerations About the Program</b></h3>
+                <p>
+                    <b>P</b>ress Keyboard key F5, on the PC receiver, to minimize or maximize the window of PC host screen. The connection is a private one on your network adaptater, going through internal IP of PC host running your game. It doesn't need you open ports on your modem, but the connection is going inbound and outbound. With the box and the range of buttons above it, in the program of your PC receiver, you can create a script to rebind your Keyboard, Mouse, and Xbox controller, connected to your PC you are playing, to Keyboard, Mouse, and Xbox controller, whatever the inputs to outputs you choosing. It needs a little knowledge in C# language but don't be scary, because there's an autocompletion for helping you with names of outputs and inputs. I can help you to create scripts and give you examples. You must know that Keyboard key Add, +, is processing or unprocessing Mouse cursor for hooking the Mouse to be used in First Personn Shooters as Xbox Controller. It also get the resolution of your screen for recenter cursor if it changed. It's a game changer to use with some tiny PC or with ready pocket PC like the GPD Win, or the OneXPlayer, or the Aya Neo, etc.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="bottom w3-center">
+        <img src="../img/favicon.png" />
+        <br>
+        <b class="white">MAF</b>
+        <br>
+        <b class="colored">©1999-2023</b>
+    </footer>
+
+    </div>
+
+    <script type="text/javascript">
+        function window_onload() {
+            var sc = document.createElement('script');
+            sc.src = "../custom/custom.js";
+            document.getElementsByTagName('head')[0].appendChild(sc);
+   		    document.getElementsByClassName("spinner")[0].classList.remove("show");
+   		    document.getElementsByClassName("spinner")[0].classList.add("hide");
+  		    $(".spinner").removeClass("show");
+   		    $(".spinner").addClass("hide");
+        }
+    </script>
+
+</body>
+</html>

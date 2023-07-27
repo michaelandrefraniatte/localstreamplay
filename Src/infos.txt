@@ -1,0 +1,30 @@
+
+For server-client connection :
+- In Windows firewall, the client needs an outbound rule allowing distant internal IP of server in TCP (10.0.0.13),
+- In Windows firewall, the server needs an inbound rule allowing distant internal IP of client in TCP (10.0.0.11).
+
+For Control :
+- Lower mouse sensitivity in mouse settings from control panel for mouse axis as left stick in racing games
+- There's some script examples to open with LSP program
+
+For audio
+- Audio card for both PC must have audio quality format set with same settings
+- Audio card use on both PC must be alone activating
+
+For program settings
+- In LSPHost, program running on PC sender, IP 10.0.0.11 is the IP of PC receiver and resolution 1366x768 is the resolution of PC receiver
+- In LSP, program running on PC receiver, IP 10.0.0.13 is the IP of PC sender and resolution 1360x768 is the resolution of PC sender
+- LSPDisplay is running on PC receiver displaying screen of PC sender
+
+(obsolete) For Shared Folder : 
+- It corresponds to a folder on PC receiver hard disk
+- Functionnalities activating default ones from programs and functionnalities under control panel
+- Network properties to enable features of IPv4 and NetBios TCP
+- Network must be private
+- Share center to allow network sharing disabling authentication for all network
+- Network connection set to private
+- Network properties to IPv4 and shared files
+- Service Server and NetBios TCP running
+- Create the folder C:/test to share in read/write allowing
+- File to transfer must not be higher than 100 Ko
+- Lower screen resolution to not have a too bigger file to transfer
