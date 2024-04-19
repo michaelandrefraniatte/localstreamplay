@@ -1,0 +1,17 @@
+C:\Users\mic\Documents\GitHub\BitmapArraysToBitmap\Src\BitmapArraysToBitmapTest\BitmapArraysToBitmapTest\bin\Release\net6.0-windows\BitmapArraysToBitmapTest.exe
+C:\Users\mic\Documents\GitHub\BitmapArraysToBitmap\Src\BitmapArraysToBitmapTest\BitmapArraysToBitmapTest\bin\Release\net6.0-windows\BitmapArraysToBitmapTest.deps.json
+C:\Users\mic\Documents\GitHub\BitmapArraysToBitmap\Src\BitmapArraysToBitmapTest\BitmapArraysToBitmapTest\bin\Release\net6.0-windows\BitmapArraysToBitmapTest.runtimeconfig.json
+C:\Users\mic\Documents\GitHub\BitmapArraysToBitmap\Src\BitmapArraysToBitmapTest\BitmapArraysToBitmapTest\bin\Release\net6.0-windows\BitmapArraysToBitmapTest.dll
+C:\Users\mic\Documents\GitHub\BitmapArraysToBitmap\Src\BitmapArraysToBitmapTest\BitmapArraysToBitmapTest\bin\Release\net6.0-windows\BitmapArraysToBitmapTest.pdb
+C:\Users\mic\Documents\GitHub\BitmapArraysToBitmap\Src\BitmapArraysToBitmapTest\BitmapArraysToBitmapTest\obj\Release\net6.0-windows\BitmapArraysToBitmapTest.csproj.AssemblyReference.cache
+C:\Users\mic\Documents\GitHub\BitmapArraysToBitmap\Src\BitmapArraysToBitmapTest\BitmapArraysToBitmapTest\obj\Release\net6.0-windows\BitmapArraysToBitmapTest.Form1.resources
+C:\Users\mic\Documents\GitHub\BitmapArraysToBitmap\Src\BitmapArraysToBitmapTest\BitmapArraysToBitmapTest\obj\Release\net6.0-windows\BitmapArraysToBitmapTest.csproj.GenerateResource.cache
+C:\Users\mic\Documents\GitHub\BitmapArraysToBitmap\Src\BitmapArraysToBitmapTest\BitmapArraysToBitmapTest\obj\Release\net6.0-windows\BitmapArraysToBitmapTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mic\Documents\GitHub\BitmapArraysToBitmap\Src\BitmapArraysToBitmapTest\BitmapArraysToBitmapTest\obj\Release\net6.0-windows\BitmapArraysToBitmapTest.AssemblyInfoInputs.cache
+C:\Users\mic\Documents\GitHub\BitmapArraysToBitmap\Src\BitmapArraysToBitmapTest\BitmapArraysToBitmapTest\obj\Release\net6.0-windows\BitmapArraysToBitmapTest.AssemblyInfo.cs
+C:\Users\mic\Documents\GitHub\BitmapArraysToBitmap\Src\BitmapArraysToBitmapTest\BitmapArraysToBitmapTest\obj\Release\net6.0-windows\BitmapArraysToBitmapTest.csproj.CoreCompileInputs.cache
+C:\Users\mic\Documents\GitHub\BitmapArraysToBitmap\Src\BitmapArraysToBitmapTest\BitmapArraysToBitmapTest\obj\Release\net6.0-windows\BitmapArraysToBitmapTest.dll
+C:\Users\mic\Documents\GitHub\BitmapArraysToBitmap\Src\BitmapArraysToBitmapTest\BitmapArraysToBitmapTest\obj\Release\net6.0-windows\refint\BitmapArraysToBitmapTest.dll
+C:\Users\mic\Documents\GitHub\BitmapArraysToBitmap\Src\BitmapArraysToBitmapTest\BitmapArraysToBitmapTest\obj\Release\net6.0-windows\BitmapArraysToBitmapTest.pdb
+C:\Users\mic\Documents\GitHub\BitmapArraysToBitmap\Src\BitmapArraysToBitmapTest\BitmapArraysToBitmapTest\obj\Release\net6.0-windows\BitmapArraysToBitmapTest.genruntimeconfig.cache
+C:\Users\mic\Documents\GitHub\BitmapArraysToBitmap\Src\BitmapArraysToBitmapTest\BitmapArraysToBitmapTest\obj\Release\net6.0-windows\ref\BitmapArraysToBitmapTest.dll
